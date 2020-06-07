@@ -1,0 +1,747 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;500;800;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+body{
+    box-sizing: border-box;
+}
+.navbar .logo {
+    height: 100px;
+    position: relative;
+    left: 2%;
+}
+.navbar .navbar-nav{
+    position: relative;
+    left: 15%;
+    width: 86%;
+}
+.navbar .navbar-nav .nav-item{
+    margin-left: 20px;
+    color: black !important;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar .navbar-nav .nav-item:hover{
+    margin-left: 20px;
+    color: black !important;
+}
+.navbar .add-to-card {
+    position: relative;
+    left: 30px;
+}
+@media(max-width: 767px){
+    .navbar .navbar-nav{
+        left: 5%;
+        width: 64%;
+    }  
+    .navbar .navbar-nav .nav-item{
+        margin-left: 14px;
+        border-bottom: 1px solid;
+        width: 143%;
+        font-size: larger;
+    }
+    .navbar .add-to-card{
+        text-align: center;
+        position: relative;
+        left: 25%;
+    }
+}
+@media(min-width: 768px) and (max-width: 991px){
+    .navbar .navbar-nav{
+        left: 5%;
+        width: 64%;
+    }  
+    .navbar .navbar-nav .nav-item{
+        margin-left: 14px;
+        border-bottom: 1px solid;
+        width: 143%;
+        font-size: larger;
+    }
+    .navbar .add-to-card{
+        text-align: center;
+        position: relative;
+        left: 25%;
+    }
+}
+@media(max-width: 1382px) and (min-width: 992px){
+    .navbar .navbar-nav{
+        left: 2%;
+        width: 98%;
+        font-size: 13px;
+        top: 10px;
+    }  
+    .navbar .navbar-nav .nav-item{
+        font-size: larger;
+        padding: 0px 0px !important;
+    }
+    .navbar .add-to-card{
+        /* text-align: center; */
+        position: relative;
+        left: 2%;
+        top: -5px;
+    }
+    .navbar-collapse{      
+        width: 60%;
+    }
+    .navbar .dropdown{
+        position: relative;
+        top: -8px;
+    }
+}
+
+/* start offre la meilleure qualite */
+
+    .offre{
+      background: url(../img/2.jpg) no-repeat top center;
+      background-size: cover;
+      min-height: 746px;
+      position: relative;
+      background-attachment: fixed;
+    }
+    .offre .overlay{
+        position: absolute;
+        top: 0;
+        right: 0;
+        height: 100% !important;
+        width: 100%;
+        background: rgba(0, 0, 0, 0.7);
+        color: white;
+    }
+    .offre .row{
+        width: 90%;
+    }
+    .offre .live-iptv-text{
+        font-size: 57px;
+        text-align: center;
+        position: relative;
+        top: 22%;
+        font-weight: 600;
+        font-family: 'Raleway', sans-serif;
+        width: 100%;
+        left: 7%;
+        text-transform: uppercase;
+    }
+    /* notrequalitÃ© */
+    .offre .notrequalité{
+        position: relative;
+        font-size: 39px;
+        text-align: center;
+        top: 29%;
+        left: 7%;
+        font-family: 'Raleway', sans-serif;
+    }
+    .offre .my-btn{
+        position: relative;
+        top: 35%;
+        left: 28%;
+        width: 80%;
+    }
+    .my-btn .btn{
+        width: 37%;
+    }
+    .my-btn .btn:first-of-type{
+      background-color: #000C42;
+      color: white;
+    }
+    .offre .all-text{
+        font-size: 50px;
+        z-index: 1;
+        width: 20%;
+        position: relative;
+        top: 52%;
+        left: 40%;
+        font-family: 'Raleway', sans-serif;
+    }
+    .offre .blomb-with-text{
+        position: relative;
+        top: -56px;
+    }
+    @media(max-width:990px){
+        .offre{
+            min-height: 1511px;
+        }
+        .svg1{
+          width: 90%;
+          position: relative;
+          left: 19%;
+          top: 67px;
+      }
+      .my-btn .btn{
+        width: 100%;
+        z-index: 5;
+        position: relative;
+        left: -7%;
+        margin-bottom: 4%;
+    }
+    .my-btn{
+      z-index: 5;
+    }
+    }
+/* end offre la meilleure qualite*/
+
+/* start commander des maintenant */
+
+.commander{
+    padding: 23px 0;
+    background-color: #f39c12;
+}
+.commander .container{
+    color: #46245C;
+    font-family: 'Raleway', sans-serif;
+    font-size: 30px;
+}
+.commander .container > p{
+    padding: 3% 0%;
+    color: black;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.commander h1{
+    font-size: 60px !important;
+    color: white;
+    text-transform: uppercase;
+}
+
+/* h1.wow.flipInX {} */
+.commander .container > p:last-of-type{
+    font-weight: bolder;
+}
+.commander .container .btn{
+    width: 50%;
+    font-size: 30px;
+    background-color: #000C42;
+}
+
+@media(max-width: 767px){
+  .commander .container .btn{
+    
+width: 100%;
+  }
+}
+
+/* end commander des maintenant */
+
+/* start Qui sommes nous ? */
+
+
+.Qui-sommes-nous img {
+    width: 100%;
+}
+
+.Qui-sommes-nous{
+    padding: 8% 0%;
+    font-family: 'Raleway', sans-serif;
+}
+.Qui-sommes-nous .Mycontent{
+    padding-top: 8%;
+}
+.Qui-sommes-nous .Mycontent p{
+    padding-bottom: 5%;
+    font-size: 25px;
+}
+.Qui-sommes-nous .Mycontent button{
+    width: 70%;
+    font-size: 41px;
+    background-color: #000C42;
+    text-transform: uppercase;
+}
+.Qui-sommes-nous h1{
+    font-size: 78px;
+    color: #f39c12;
+}
+.Qui-sommes-nous .parag{
+    font-size: 21px;
+}
+
+/* end Qui sommes nous ? */
+
+/* start pricing table */
+.pricing-table{
+  font-family: 'Lato', sans-serif;
+}
+.pricing-table .card{
+  margin-top: 10%;
+  transition: all 1s ease-in-out;
+}
+.pricing-table .card:hover{
+  box-shadow: 2px 12px 17px 6px;
+}
+.pricing-table .header1{
+  font-size: 33px;
+  color: black;
+  font-family: monospace;
+  letter-spacing: 2.1px;
+  font-weight: bold;
+  line-height: 0.9;
+}
+.pricing-table .bor{
+  border-bottom: 2px solid #dee2e6 !important;
+  margin-bottom: 10px;
+}
+.pricing-table .price1{
+  color: #bdbdbd;
+  font-size: 25px;
+}
+.pricing-table .euro-icon{
+  font-size: 25px;
+  color: #fc0;
+  font-weight: bold;
+}
+.pricing-table .price2{
+  font-size: 25px;
+  font-weight: 500;
+}
+.pricing-table .price3{
+  color: #bdbdbd;
+}
+.pricing-table ul li{
+  list-style: none;
+  padding: 18px 0px;
+  color: #010c44;
+  position: relative;
+  left: -14%;
+}
+.pricing-table ul i{
+  position: relative;
+  left: -12px;
+  color: #fc0;
+}
+.pricing-table .liBorB{
+  position: relative;
+  left: -23%;
+  width: 122%;
+}
+.pricing-table .btn{
+  background-color: #010C44;
+  padding: 8% 10%;
+  font-size: 15px;
+  text-transform: uppercase;
+  float: left;
+  position: relative;
+  left: 21%;
+  font-weight: 900;
+}
+.pricing-table .news{
+  height: 27px;
+  width: 80px;
+  background-color: red;
+  position: absolute;
+  left: 75%;
+  top: 5%;
+  color: white;
+  padding: 0px 2px;
+}
+.pricing-table .news:after{
+  float: right;
+  content: "a";
+  border: 1px solid red;
+  background-color: red;
+  color: red;
+  padding: 0px 1px;
+  position: relative;
+  left: -1px;
+  top: -133%;
+  height: 19px;
+  transform: rotate(43deg);
+  width: 25px;
+  z-index: 5;
+}
+.pricing-table .news:before{
+  content: "a";
+  color: white;
+  position: absolute;
+  top: -96%;
+  left: 53%;
+  background-color: white;
+  padding: 1px 6px;
+  z-index: 15;
+}
+.pricing-table .green{
+  height: 27px;
+  width: 80px;
+  background-color: #00C853;
+  position: absolute;
+  left: 75%;
+  top: 5%;
+  color: white;
+  padding: 0px 2px;
+}
+.pricing-table .green:after{
+  float: right;
+  content: "a";
+  border: 1px solid #00C853;
+  background-color: #00C853;
+  color: #00C853;
+  padding: 0px 1px;
+  position: relative;
+  left: -1px;
+  top: -133%;
+  height: 19px;
+  transform: rotate(43deg);
+  width: 25px;
+  z-index: 5;
+}
+
+@media(max-width: 1090px){
+  .pricing-table ul li{
+    left: -4%;
+  }
+  .pricing-table .liBorB{
+    left: -6%;
+    width: 100%;
+  }
+  .pricing-table .btn{
+    left: 31%;
+  }
+}
+@media (max-width: 1200px) and (min-width: 992px){
+  .pricing-table .news{
+    left: 70%;
+  }
+}
+@media (max-width: 991px) and (min-width: 768px) {
+  .pricing-table .news{
+    left: 91%;
+  }
+}
+@media (max-width: 767px) {
+  .pricing-table .news{
+    left: 88%;
+  }
+}
+/* end  pricing table */
+
+
+/* START POURQUOI CHOISIR */
+
+.POURQUOI-CHOISIR{
+  font-family: 'Raleway', sans-serif;
+    padding: 5% 0%;
+}
+.POURQUOI-CHOISIR .card-title{
+    font-weight: bolder;
+    padding: 10% 0;
+    color: black;
+    font-size: 27px;
+}
+.POURQUOI-CHOISIR .card{
+    margin: 3% auto;
+    height: 450px;
+}
+
+/* END POURQUOI CHOISIR */
+
+
+/* start Nos packs Normal */
+
+  .NosPacksNormal{
+    padding-top: 8%;
+  }
+  .NosPacksNormal .bord{
+    border: 2px solid black;
+    border-radius: 50%;
+    box-shadow: 4px 40px 41px 29px #d0cdcd inset;
+  }
+  .NosPacksNormal .subbord{
+    border: 11px solid;
+    border-radius: 50%;
+    border-color: rgba(255, 250, 250, 0.84);
+  }
+  .NosPacksNormal .roundP{
+    height: 326px;
+    width: 100%;
+    border: 10px solid rgb(255, 145, 0);
+    border-radius: 50%;
+    text-align: center;
+    padding: 24% 0% 0% 0%;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  .NosPacksNormal .color1{
+    border: 10px solid rgb(50, 158, 0);
+  }
+  .NosPacksNormal .color2{
+    border: 10px solid rgb(187, 4, 4);
+  }
+  .NosPacksNormal .bord::after{
+    content: "$29";
+    float: left;
+    border: 1px solid;
+    padding: 19px 20px;
+    background-color: #1F2F3E;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    letter-spacing: 4.3px;
+    position: relative;
+    top: -80px;
+    left: 2px;
+  }
+  .NosPacksNormal .price3::after{
+    content: "$39";
+  }
+  .NosPacksNormal .price4::after{
+    content: "$49";
+  }
+  .NosPacksNormal .price1::after{
+    content: "$49";
+  }
+  .NosPacksNormal .price2::after{
+    content: "$59";
+  }
+  .NosPacksNormal .btn{
+    background-color: #1F2F3E;
+    color: white;
+    width: 50%;
+    height: 28%;
+    font-size: 23px;
+    margin-top: 12px;
+  }
+
+  @media (min-width: 768px) and (max-width: 990px){
+    .NosPacksNormal .p{
+        font-size: 37px;
+    }
+    .NosPacksNormal .roundP{ 
+        padding: 5% 0% 0% 0%;
+    }
+    .NosPacksNormal .btn{
+      padding: 2%;
+      font-size: 25px;
+    }
+    .NosPacksNormal .bord::after{
+      left: 9%;
+    }
+}
+@media (max-width: 768px){
+  .NosPacksNormal .p{
+      
+font-size: 32px;
+  }
+  .NosPacksNormal .roundP{
+      
+padding-top: 10%;
+  }
+  .NosPacksNormal .btn{
+    
+font-size: 25px;
+    
+padding: 14px 0px;
+  }
+  /* .NosPacksNormal .bord::after{
+    
+  } */
+}
+
+.test-gratuit .btn{
+  padding: 4%;
+  font-size: 60px;
+}
+
+  /* #BF7E28; */
+/* end Nos packs Normal */
+
+
+/* start final text */
+
+.final-text p{
+  font-family: 'Raleway', sans-serif;
+}
+.final-text{
+  padding-top: 4%;
+}
+
+/* end final text */
+
+
+.footer{
+  padding: 4% 0;
+  background-color: ghostwhite;
+  font-size: 46px;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.footer .contactnous{
+
+text-transform: uppercase;
+
+font-size: 29px;
+}
+.footer .powered{
+  
+padding-bottom: 1%;
+}
+
+
+
+
+/* start new page espacevendeur.html*/
+/* start espace vendeur */
+
+.espace-vendeur{
+  padding: 3% 0%;
+  font-family: 'Raleway', sans-serif;
+  transition: all 3s ease-in-out;
+  }
+  .espace-vendeur .card-title{
+  padding: 3% 0%;
+  font-weight: bold;
+  font-size: 70px;
+  }
+  .espace-vendeur .card-text{
+  padding: 3% 0%;
+  }
+  .espace-vendeur .btn{
+  padding: 3%;
+  font-size: 38px;
+  }
+  .espace-vendeur .card{
+    transition: all 2s ease-in-out;
+    }
+  .espace-vendeur .card:hover{
+    box-shadow: 16px 28px 32px 15px green;
+    transform: scale(1.1);
+    }
+  /* end espace vendeur */
+  /* end new page */
+
+
+  /* start new page  smartLiveTv.html*/
+
+  .liveIpTv{
+    font-family: 'Raleway', sans-serif;
+  }
+    .liveIpTv h2{
+      font-size: 80px;
+    }
+    .liveIpTv .img-fluid{
+      max-width: 53%;
+      padding: 7% 0;
+    }
+    .liveIpTv .guid{
+      transition: all .5s ease-in-out;
+    }
+    .liveIpTv .guid:hover{
+      transform: scale(1.5);
+    }
+  /* end new page  */
+
+
+ /* start new page fonctionnement avec vlc*/
+ .fonction-avec-vlc{
+  font-family: 'Raleway', sans-serif;
+ }
+ .fonction-avec-vlc h1{
+  color: #e67e22;
+  padding: 4% 1%;
+  text-align: left;
+  }
+      .fonction-avec-vlc p{
+  padding: 7% 0;
+  color: gray;
+      }
+      .fonction-avec-vlc .img-fluid{
+  border-radius: 20%;
+  margin-bottom: 15%;
+  }
+      .fonction-avec-vlc ol li{
+      line-height: 50px;
+      color: brown;
+      font-weight: bold;
+      }
+  
+  
+    /* end new page fonctionnement avec vlc*/
+
+
+    /* Start new page GSEiptv */
+    .GSE-IPTV{
+    font-size: 54px;
+    padding-bottom: 5%;
+    color: red;
+    font-family: 'Raleway', sans-serif;
+    }
+    .GSE-IPTV ol li{
+      text-align: left;
+      font-size: 30px;
+      padding: 1% 0%;
+      color: darkgray;
+    }
+    .GSE-IPTV h1:first-of-type{
+      padding: 4% 0%;
+      font-size: 60px;
+      color: orangered;
+    }
+    .GSE-IPTV h2:first-of-type{
+      padding: 5% 1%;
+      font-size: 45px;
+      color: brown;
+    }
+    .GSE-IPTV h2:nth-of-type(2){
+      padding: 5% 0%;
+      font-size: 50px;
+      color: brown;
+    }
+    .GSE-IPTV h2:last-of-type{
+      padding: 5% 0%;
+      font-size: 50px;
+      color: brown;
+    }
+    .GSE-IPTV img{
+      transition: all .5s ease-in-out;
+    }
+    .GSE-IPTV img:not(:first-of-type){
+      padding: 5% 0%;
+    }
+    .GSE-IPTV img:first-of-type:hover{
+      transform: scale(1.1);
+      box-shadow: 18px 24px 35px 14px blue;
+    }
+    .GSE-IPTV img:not(:first-of-type):hover{
+      transform: scale(1.3);
+      box-shadow: 18px 24px 35px 14px black;
+    }
+    .GSE-IPTV p{
+      font-size: 18px;
+      color: gray;
+    }
+
+    /* end new page GSEiptv */
+  
+
+    /* start new pages */
+
+
+    .MAGiptv{
+      font-family: 'Raleway', sans-serif;
+    }
+    .MAGiptv h1{
+      font-size: 54px;
+      padding-bottom: 5%;
+      color: red;
+    }
+    .MAGiptv ol li{
+      padding: 1% 0%;
+      font-size: 24px;
+      text-align: left;
+      color: brown;
+      font-weight: bold;
+    }
+    .MAGiptv p{
+      font-size: 20px;
+      color: darkgray;
+    }
+
+    /* end new pages */
+
+/* #46245C */
+/* #57ff00 */
+
+/* @media(max-width:767px){}
+@media(min-width:768px){}
+@media(min-width:992px){}
+@media(min-width:1200px){} */
